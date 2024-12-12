@@ -8,7 +8,7 @@
 
 - **Client and Server Interaction**: In a typical GraphQL setup, the client sends a query to the server, which processes it and returns the requested data. This interaction is more efficient compared to REST, where clients might receive unnecessary data .
 
-- **Queries and Mutations**: 
+- **Queries and Mutations**:
   - **Queries** are used to fetch data. For example, a client can request specific fields from a resource, such as a list of todos with only their titles .
   - **Mutations** are used to modify data on the server. They allow clients to create, update, or delete resources .
 
@@ -35,6 +35,7 @@
 **Example Query Structure**
 
 - A sample query to fetch todos with their titles and associated user names might look like this:
+
 ```graphql
 query {
   todos {
@@ -45,6 +46,7 @@ query {
   }
 }
 ```
+
 This query specifies that the client wants the title of each todo and the name of the user who created it .
 
 **Conclusion**
